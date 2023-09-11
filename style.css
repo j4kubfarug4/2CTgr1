@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.header{
+    display: flex;
+    font-size: 24px;
+    background-color: aquamarine;
+    color: black;
+    justify-content: center;
+    font-style: oblique;
+    font-family: Verdana;
+    font-weight: 900;
+}
