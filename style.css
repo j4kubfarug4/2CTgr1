@@ -12,3 +12,29 @@ body{
     font-family: Verdana;
     font-weight: 900;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color:cadetblue ;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+nav li{
+    float: left;
+}
+nav a{
+    display: block;
+    color:palegoldenrod ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:dimgray ;
+}
